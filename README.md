@@ -10,3 +10,4 @@ Parsing the CSV File Headers, p.334
     sitka_highs.py
 Printing the headers and their positions, p.335
 Extracting and reading data, p.336
+Plotting data in a temperature chart, p.336
