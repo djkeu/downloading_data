@@ -19,3 +19,6 @@ Plotting a second data series, p.340
 Shading an area in the chart, p.342
 Error checking, p.343
     death_valley_highs_lows.py
+Downloading your own data, p.345
+    https://www.ncdc.noaa.gov/cdo-web/
+
