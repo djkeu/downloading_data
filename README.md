@@ -21,4 +21,4 @@ Error checking, p.343
     death_valley_highs_lows.py
 Downloading your own data, p.345
     https://www.ncdc.noaa.gov/cdo-web/
-ToDo: plot temperatures Leeuwarden from 3495766.csv
+    Done: plot temperatures Leeuwarden from 3495766.csv
