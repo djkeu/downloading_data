@@ -22,3 +22,6 @@ Error checking, p.343
 Downloading your own data, p.345
     https://www.ncdc.noaa.gov/cdo-web/
     Done: plot temperatures Leeuwarden from 3495766.csv
+
+
+# Try it yourself, p.346
