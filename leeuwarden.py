@@ -16,14 +16,16 @@ with open(filename) as f:
     for row in reader:
         current_date = datetime.strptime(row[2], "%Y-%m-%d")
         try:
-            high = int(row[3])
-            low = int(row[4])
+            high_fahr = int(row[3])
+            high_celsius = (high_fahr - 32) / 1.8
+            low_fahr = int(row[4])
+            low_celsius = (low_fahr -32) / 1.8
         except ValueError:
             print(f"Missing data for {current_date}")
         else:
             dates.append(current_date)
-            highs.append(high)
-            lows.append(low)
+            highs.append(high_celsius)
+            lows.append(low_celsius)
 
     # Plot the high temperatures
     plt.style.use('seaborn-v0_8')
