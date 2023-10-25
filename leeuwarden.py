@@ -38,7 +38,7 @@ with open(filename) as f:
     plt.title("Daily high and low temperatures - 2023\nLeeuwarden, Frl", fontsize='20')
     plt.xlabel(' ', fontsize='16')
     fig.autofmt_xdate()
-    plt.ylabel("Temperature (F)", fontsize='16')
+    plt.ylabel("Temperature (C)", fontsize='16')
     plt.tick_params(axis='both', which='major', labelsize='16')
 
     plt.show()
