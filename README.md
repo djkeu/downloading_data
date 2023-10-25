@@ -16,3 +16,4 @@ Plotting dates, p.338
 Plotting a longer timeframe, p.340
 Plotting a second data series, p.340
     sitka_highs_lows.py
+Shading an area in the chart, p.342
