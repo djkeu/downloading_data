@@ -43,7 +43,10 @@ with open(filename) as f:
 
     # Format plot
     plt.style.use('seaborn-v0_8')
-    plt.title("Hoogste en laagste temperaturen 2023\nLeeuwarden, Frl", fontsize='20')
+    for column_header in header_row:
+        if column_header == 'NAME':
+            town = row[1].capitalize()
+    plt.title(f"Hoogste en laagste temperaturen 2023\n{town}.", fontsize='20')
     plt.xlabel(' ', fontsize='16')
     fig.autofmt_xdate()
     plt.ylabel("Temperatuur (C)", fontsize='16')
