@@ -61,6 +61,6 @@ able to generate visualizations of the data you’re interested in.
     In this section, we hardcoded the indexes corresponding to the TMIN and TMAX columns. Use the header row to determine the indexes for these values, so your program can work for Sitka or Death Valley. Use the station name to automatically generate an appropriate title for your graph
     as well.
 
-## ToDo: 16-5. Explore: 
+## 16-5. Explore: 
     Generate a few more visualizations that examine any other weather aspect you’re interested in for any locations you’re curious about.
-
+        leeuwarden.py
