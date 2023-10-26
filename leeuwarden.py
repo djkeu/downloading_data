@@ -35,7 +35,7 @@ with open(filename) as f:
     plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 
     # Format plot
-    plt.title("Hoogste en laagste temper 2023\nLeeuwarden, Frl", fontsize='20')
+    plt.title("Hoogste en laagste temperaturen 2023\nLeeuwarden, Frl", fontsize='20')
     plt.xlabel(' ', fontsize='16')
     fig.autofmt_xdate()
     plt.ylabel("Temperature (C)", fontsize='16')
