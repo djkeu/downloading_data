@@ -69,4 +69,5 @@ able to generate visualizations of the data you’re interested in.
 # Mapping global data sets: JSON format, p.347
 Downloading earthquake data, p.347
 Examining JSON data, p.347
+    eq_explore_data.py
 
