@@ -19,7 +19,7 @@ with open(filename) as f:
             high_fahr = int(row[3])
             high_celsius = (high_fahr - 32) / 1.8
             low_fahr = int(row[4])
-            low_celsius = (low_fahr -32) / 1.8
+            low_celsius = (low_fahr - 32) / 1.8
         except ValueError:
             print(f"Missing data for {current_date}")
         else:
