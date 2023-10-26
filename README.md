@@ -58,8 +58,7 @@ able to generate visualizations of the data you’re interested in.
         san_francisco_temperatures.py
 
 ## 16-4. Automatic Indexes: 
-    In this section, we hardcoded the indexes corresponding to the TMIN and TMAX columns. Use the header row to determine the indexes for these values, so your program can work for Sitka or Death Valley. 
-    ToDo: Use the station name to automatically generate an appropriate title for your graph
+    In this section, we hardcoded the indexes corresponding to the TMIN and TMAX columns. Use the header row to determine the indexes for these values, so your program can work for Sitka or Death Valley. Use the station name to automatically generate an appropriate title for your graph
     as well.
 
 ## ToDo: 16-5. Explore: 
