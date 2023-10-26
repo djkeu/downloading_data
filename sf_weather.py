@@ -28,4 +28,9 @@ with open(filename) as f:
     ax.plot(dates, highs, c='red')
     ax.plot(dates, lows, c='blue')
 
+    plt.style.use('seaborn-v0_8')
+    plt.title("San Francisco weather, 2018")
+    plt.ylabel("Temperatures (F)")
+    plt.tick_params(axis='y', which='major', labelsize=16)
+
     plt.show()
