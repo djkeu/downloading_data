@@ -68,5 +68,5 @@ able to generate visualizations of the data you’re interested in.
 
 # Mapping global data sets: JSON format, p.347
 Downloading earthquake data, p.347
-    ToDo:    https://earthquake.usgs.gov/earthquakes/feed/
+Examining JSON data, p.347
 
