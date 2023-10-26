@@ -3,6 +3,7 @@ from datetime import datetime
 
 import matplotlib.pyplot as plt
 
+
 filename = 'data/lwd_weer.csv'
 with open(filename) as f:
     reader = csv.reader(f)
@@ -18,9 +19,8 @@ with open(filename) as f:
         try:
             for index, column_header in enumerate(header_row):
                 if column_header == 'TMAX':
-                    index_max = index
-            high_fahr = int(row[index_max])
-            high_celsius = (high_fahr - 32) / 1.8
+                    high = int(row[index])
+            high_celsius = (high - 32) / 1.8
 
             for index, column_header in enumerate(header_row):
                 if column_header == 'TMIN':
@@ -54,3 +54,4 @@ with open(filename) as f:
     plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 
     plt.show()
+
