@@ -32,10 +32,13 @@ Plot temperatures Leeuwarden from 3495766.csv
 
 ## 16-2. Sitka–Death Valley Comparison: 
     The temperature scales on the Sitka and Death Valley graphs reflect the different data ranges. To accurately compare the temperature range in Sitka to that of Death Valley, you need identical scales on the y-axis. Change the settings for the y-axis on one or both of the charts in Figures 16-5 and 16-6. Then make a direct comparison between temperature ranges in Sitka and Death Valley (or any two places you want to compare).
+        sitka_highs_lows.py
+        death_valley_highs_lows.py
 
 ## ToDo: 16-3. San Francisco: 
     Are temperatures in San Francisco more like tempera-
     tures in Sitka or temperatures in Death Valley? Download some data for San Francisco, and generate a high-low temperature plot for San Francisco to make a comparison.
+        san_francisco_temperatures.py
 
 ## ToDo: 16-4. Automatic Indexes: 
     In this section, we hardcoded the indexes corresponding to the TMIN and TMAX columns. Use the header row to determine the indexes for these values, so your program can work for Sitka or Death Valley. Use the station name to automatically generate an appropriate title for your graph
