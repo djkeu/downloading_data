@@ -24,9 +24,8 @@ with open(filename) as f:
 
             for index, column_header in enumerate(header_row):
                 if column_header == 'TMIN':
-                    index_min = index
-            low_fahr = int(row[index_min])
-            low_celsius = (low_fahr - 32) / 1.8
+                    low = int(row[index])
+            low_celsius = (low - 32) / 1.8
 
         except ValueError:
             print(f"Missing data for {current_date}")
