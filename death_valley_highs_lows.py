@@ -37,6 +37,7 @@ with open(filename) as f:
     plt.xlabel(' ', fontsize='16')
     fig.autofmt_xdate()
     plt.ylabel("Temperature (F)", fontsize='16')
+    plt.ylim(0, 140)
     plt.tick_params(axis='both', which='major', labelsize='16')
 
     plt.show()
