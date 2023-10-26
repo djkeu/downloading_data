@@ -16,12 +16,21 @@ with open(filename) as f:
     for row in reader:
         current_date = datetime.strptime(row[2], "%Y-%m-%d")
         try:
-            high_fahr = int(row[3])
+            for index, column_header in enumerate(header_row):
+                if column_header == 'TMAX':
+                    index_max = index
+            high_fahr = int(row[index_max])
             high_celsius = (high_fahr - 32) / 1.8
-            low_fahr = int(row[4])
+
+            for index, column_header in enumerate(header_row):
+                if column_header == 'TMIN':
+                    index_min = index
+            low_fahr = int(row[index_min])
             low_celsius = (low_fahr - 32) / 1.8
+
         except ValueError:
             print(f"Missing data for {current_date}")
+
         else:
             dates.append(current_date)
             highs.append(high_celsius)
