@@ -28,6 +28,7 @@ Plot temperatures Leeuwarden from 3495766.csv
 
 ## ToDo: 16-1. Sitka Rainfall: 
     Sitka is in a temperate rainforest, so it gets a fair amount of rainfall. In the data file sitka_weather_2018_simple.csv is a header called PRCP, which represents daily rainfall amounts. Make a visualization focusing on the data in this column. You can repeat the exercise for Death Valley if you’re curious how little rainfall occurs in a desert
+        sitka_rainfall.py
 
 ## ToDo: 16-2. Sitka–Death Valley Comparison: 
     The temperature scales on the Sitka and Death Valley graphs reflect the different data ranges. To accurately compare the temperature range in Sitka to that of Death Valley, you need identical scales on the y-axis. Change the settings for the y-axis on one or both of the charts in Figures 16-5 and 16-6. Then make a direct comparison between temperature ranges in Sitka and Death Valley (or any two places you want to compare).
