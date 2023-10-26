@@ -52,10 +52,11 @@ able to generate visualizations of the data you’re interested in.
         sitka_highs_lows.py
         death_valley_highs_lows.py
 
-## ToDo: 16-3. San Francisco: 
+## 16-3. San Francisco: 
     Are temperatures in San Francisco more like tempera-
     tures in Sitka or temperatures in Death Valley? Download some data for San Francisco, and generate a high-low temperature plot for San Francisco to make a comparison.
         san_francisco_temperatures.py
+        ToDo: Format plot
 
 ## ToDo: 16-4. Automatic Indexes: 
     In this section, we hardcoded the indexes corresponding to the TMIN and TMAX columns. Use the header row to determine the indexes for these values, so your program can work for Sitka or Death Valley. Use the station name to automatically generate an appropriate title for your graph
