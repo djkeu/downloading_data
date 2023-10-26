@@ -64,3 +64,9 @@ able to generate visualizations of the data you’re interested in.
 ## 16-5. Explore: 
     Generate a few more visualizations that examine any other weather aspect you’re interested in for any locations you’re curious about.
         leeuwarden.py
+
+
+# Mapping global data sets: JSON format, p.347
+Downloading earthquake data, p.347
+    ToDo:    https://earthquake.usgs.gov/earthquakes/feed/
+
