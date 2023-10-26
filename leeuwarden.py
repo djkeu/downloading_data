@@ -28,17 +28,17 @@ with open(filename) as f:
             lows.append(low_celsius)
 
     # Plot the high temperatures
-    plt.style.use('seaborn-v0_8')
     fig, ax = plt.subplots()
     ax.plot(dates, highs, c='red', alpha=0.5)
     ax.plot(dates, lows, c='blue', alpha=0.5)
-    plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 
     # Format plot
+    plt.style.use('seaborn-v0_8')
     plt.title("Hoogste en laagste temperaturen 2023\nLeeuwarden, Frl", fontsize='20')
     plt.xlabel(' ', fontsize='16')
     fig.autofmt_xdate()
     plt.ylabel("Temperatuur (C)", fontsize='16')
     plt.tick_params(axis='both', which='major', labelsize='16')
+    plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 
     plt.show()
