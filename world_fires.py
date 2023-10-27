@@ -27,8 +27,3 @@ with open(filename) as f:
         lats.append(lat)
         longs.append(long)
         brights.append(bright)
-
-    # Test prints
-    print(lats[:5])
-    print(longs[:5])
-    print(brights[:10])
