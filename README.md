@@ -89,7 +89,7 @@ Adding hover text, p.356
 ## 16-6. Refactoring: 
     The loop that pulls data from all_eq_dicts uses variables for the magnitude, longitude, latitude, and title of each earthquake before appending these values to their appropriate lists. This approach was chosen for clarity in how to pull data from a JSON file, but it’s not necessary in your code. Instead of using these temporary variables, pull each value from eq_dict and append it to the appropriate list in one line. Doing so should shorten the body of this loop to just four lines.
 
-## ToDo: 16-7. Automated Title: 
+## 16-7. Automated Title: 
     In this section, we specified the title manually when defining my_layout, which means we have to remember to update the title every time the source file changes. Instead, you can use the title for the data set in the metadata part of the JSON file. Pull this value, assign it to a variable, and use this for the title of the map when you’re defining my_layout.
 
 ## ToDo: 16-8. Recent Earthquakes: 
