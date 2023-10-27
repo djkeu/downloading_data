@@ -11,7 +11,7 @@ with open(filename) as f:
     for index, column_header in enumerate(header_row):
         print(index, column_header)
 
-    lats, longs, brights = [], [], []
+    lats, lons, brights = [], [], []
 
     for row in reader:
         for index, column_header in enumerate(header_row):
@@ -25,5 +25,6 @@ with open(filename) as f:
                 bright = row[index]
 
         lats.append(lat)
-        longs.append(long)
+        lons.append(long)
         brights.append(bright)
+
