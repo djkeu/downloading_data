@@ -1,2 +1,10 @@
 import json
 
+# Explore the structure of the data
+filename ='data/eq_explore_data.json'
+with open(filename) as f:
+    all_eq_data = json.load(f)
+
+readable_file = 'data/readable_eq_data.json'
+with open(readable_file) as f:
+    json.dump(all_eq_data, f, indent=4)
