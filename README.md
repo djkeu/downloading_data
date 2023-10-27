@@ -70,4 +70,5 @@ able to generate visualizations of the data you’re interested in.
 Downloading earthquake data, p.347
 Examining JSON data, p.347
     eq_explore_data.py
+Making a list of all earthquakes, p.350
 
