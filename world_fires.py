@@ -28,3 +28,18 @@ with open(filename) as f:
         lons.append(long)
         brights.append(bright)
 
+# Map the fires
+data = [{
+    'type': 'scattergeo',
+    'lon': lons,
+    'lat': lats,
+    'marker': {
+        'size': 2,
+        'color': 'red',
+    }
+}]
+
+my_layout = Layout(title="Global fires")
+
+fig = {'data': data, 'layout': my_layout}
+offline.plot(fig, filename='global_fires.html')
