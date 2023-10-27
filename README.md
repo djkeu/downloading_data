@@ -80,3 +80,5 @@ Customizing marker colors, p.354
     eq_world_map.py
 Other colorscales, p.356
     show_color_scales.py
+Adding hover text, p.356
+    eq_world_map.py
