@@ -79,4 +79,4 @@ Customizing marker size, p.353
 Customizing marker colors, p.354
     eq_world_map.py
 Other colorscales, p.356
-    
+    show_color_scales.py
