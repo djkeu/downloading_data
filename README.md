@@ -73,3 +73,4 @@ Examining JSON data, p.347
 Making a list of all earthquakes, p.350
 Extracting magnitudes, p.350
 Extracting location data, p.351
+Building a world map, p.351
