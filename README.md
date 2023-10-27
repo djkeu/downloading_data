@@ -75,3 +75,4 @@ Extracting magnitudes, p.350
 Extracting location data, p.351
 Building a world map, p.351
 A Different Way of Specifying Chart Data, p.353
+Customizing marker size, p.353
