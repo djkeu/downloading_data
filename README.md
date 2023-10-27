@@ -77,3 +77,4 @@ Building a world map, p.351
 A Different Way of Specifying Chart Data, p.353
 Customizing marker size, p.353
 Customizing marker colors, p.354
+    eq_world_map.py
