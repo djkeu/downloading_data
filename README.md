@@ -74,3 +74,4 @@ Making a list of all earthquakes, p.350
 Extracting magnitudes, p.350
 Extracting location data, p.351
 Building a world map, p.351
+A Different Way of Specifying Chart Data, p.353
