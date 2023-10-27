@@ -23,10 +23,6 @@ for eq_dict in all_eq_dicts:
     lons.append(lon)
     lats.append(lat)
 
-# print(mags[:10])
-# print(lons[:5])
-# print(lats[:5])
-
 # Map the earthquakes
 # data = [Scattergeo(lon=lons, lat=lats)]
 data = [{
